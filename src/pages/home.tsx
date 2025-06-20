@@ -8,9 +8,13 @@ export function Home() {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <Ionicons name="person-circle" size={64} color="#fff" />
-        <Text style={styles.userText}>Olá, JULYA</Text>
-        <Text style={styles.cpf}>CPF: ***.***.657-**</Text>
+        <View style={styles.block}>
+          <Ionicons name="person-circle" size={80} color="#fff" />
+          <View style={styles.info}>
+            <Text style={styles.userText}>Olá, JULYA</Text>
+            <Text style={styles.cpf}>CPF: ***.***.657-**</Text>
+          </View>
+        </View>
         <Text style={styles.warning}>
           NÃO É VÁLIDO COMO DOCUMENTO DE IDENTIFICAÇÃO
         </Text>

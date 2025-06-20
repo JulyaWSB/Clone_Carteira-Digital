@@ -5,9 +5,16 @@ export const styles = StyleSheet.create({
 
   header: {
     backgroundColor: "#002f6c",
-    alignItems: "center",
     padding: 20,
-    marginTop: 20,
+    marginTop: 30,
+  },
+
+  block: {
+    flexDirection: "row",
+  },
+
+  info: {
+    marginLeft: 10,
   },
 
   searchContainer: {
@@ -30,11 +37,16 @@ export const styles = StyleSheet.create({
     marginRight: 8,
   },
 
-  userText: { color: "#fff", fontSize: 18, fontWeight: "bold", marginTop: 15 },
+  userText: { fontSize: 21, fontWeight: "bold", marginTop: 15, color: "#fff" },
 
-  cpf: { color: "#fff", marginTop: 4 },
+  cpf: { marginTop: 4, color: "#fff" },
 
-  warning: { color: "#ffd600", fontSize: 12, marginTop: 20 },
+  warning: {
+    color: "#ffd600",
+    fontSize: 12,
+    marginTop: 10,
+    textAlign: "center",
+  },
 
   card: {
     marginTop: 5,
@@ -59,19 +71,20 @@ export const styles = StyleSheet.create({
   grid: {
     flexDirection: "row",
     flexWrap: "wrap",
-    justifyContent: "space-around",
+    // justifyContent: "space-around",
     marginTop: 5,
   },
 
   box: {
-    width: "40%",
+    width: 170,
+    height: 140,
     backgroundColor: "#fff",
     margin: 8,
-    padding: 16,
-    borderRadius: 8,
-    alignItems: "center",
+    marginLeft: 15,
+    padding: 26,
+    borderRadius: 4,
     elevation: 2,
-    textAlign: "center",
+    alignItems: "center",
   },
 
   nav: {
