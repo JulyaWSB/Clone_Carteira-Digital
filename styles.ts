@@ -84,7 +84,6 @@ export const styles = StyleSheet.create({
     padding: 26,
     borderRadius: 4,
     elevation: 2,
-    alignItems: "center",
   },
 
   nav: {
